@@ -65,25 +65,3 @@ const App = () => {
 
 ReactDOM.render(<App />, document.getElementById('root'))
 
-/*import React from 'react'
-import ReactDOM from 'react-dom'
-
-const Hello = (props) => {
-  return(
-    <div>
-      <p>Hello {props.name}, you are {props.age} years old</p>
-    </div>
-  )
-}
-
-const App = () => {
-  return (
-    <div>
-      <h1>Greetings</h1>
-      <Hello name="Bruno" age={10 + 9}/>
-    </div>
-  )
-}
-
-ReactDOM.render(<App />, document.getElementById('root')) 
-*/
