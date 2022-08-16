@@ -13,7 +13,7 @@ const Display = (props) => <div>{props.text}{props.value}{props.percentage}</div
 const Statistics = (props) => {
   if(props.goodValue + props.neutralValue + props.badValue === 0){
     return(
-      <div>No Feedback</div>
+      <div>No Feedback given</div>
     )
   }
   else{
